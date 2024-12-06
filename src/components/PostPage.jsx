@@ -26,7 +26,7 @@ function PostPage({ postId }) {
             const data = await res.json();
             setPostData(data);
         } catch (error) {
-            console.log("Error getting post data from ID", error);
+            console.log("Error getting post data from ID ", error);
         }
     }
 
